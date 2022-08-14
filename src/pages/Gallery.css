@@ -1,0 +1,16 @@
+h1{
+    color:white;
+    padding-left:10%
+}
+.imgbox{
+    padding:100px
+}
+.gallery{
+    transition: 'transform .2s';
+    max-width: 250px;
+    max-height: 250px;
+    margin:10px;
+}
+.gallery:hover{
+  transform: scale(2);
+}
