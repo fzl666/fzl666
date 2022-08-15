@@ -1,69 +1,24 @@
 import { Link } from "react-router-dom"
 import cursor from "../assets/img/cursor.png"
+import './Contact.css'
 
-const style={
-Menu:{
-    width:50,
-    position:'fixed',
-    top:'50%',
-    left:'50%',
-    transform: 'translate(-50%, -50%)'
-  },
-Content:{
-    position: 'fixed',
-    top: '40%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    lineHeight:'10%',
-    textAlign:'center',
-    padding:10,
-    borderStyle:'solid'
-},
-ig:{
-    width:50,
-    position:'absolute',
-    transform: 'translate(-50%, -50%)',
-    top:'15%',
-    left:'50%',
-  },
-git:{
-    width:50,
-    position:'absolute',
-    transform: 'translate(-50%, -50%)',
-    top:'50%',
-    left:'85%',
-  },
-youtube:{
-    width:50,
-    position:'absolute',
-    transform: 'translate(-50%, -50%)',
-    top:'50%',
-    left:'15%',
-  },
-mail:{
-    width:50,
-    position:'absolute',
-    transform: 'translate(-50%, -50%)',
-    top:'85%',
-    left:'50%',
-  }
-}
 const Contact = () => {
     return (
     <div>
-   
-    <div style={style.Content}> 
-        <p>Contact</p>
-    </div> 
     <br></br>
-    <Link to="/Menu"><img title='Home' style={style.Menu} src={cursor}></img></Link>  
-    <a href="https://www.instagram.com/luwenxis"><img title='Instagram' style={style.ig} src={cursor}></img></a>
-        <br></br>
-        <a href="https://github.com/fzl666"><img title='Github' style={style.git} src={cursor}></img></a>
-        <br></br>
-        <a href="https://www.youtube.com/channel/UCxuz0g5hfYVvs5w_euqgmYQ/featured"><img title='Youtube' style={style.youtube} src={cursor}></img></a>
-        <br></br>
-        <a href = "mailto: songl652@newschool.edu"><img title='Mail' style={style.mail} src={cursor}></img></a>
+    <Link to="/Menu"><img title='Home' id='menu' src={cursor} alt='home'></img></Link>  
+        <div className="cursor"><a href="https://www.instagram.com/luwenxis"><img title='Instagram' id='ig' src={cursor} alt='instagram'></img></a></div>
+        <p className='tooltip'id='i'>Instagram</p>
+        <div className="cursor"><a href="https://github.com/fzl666"><img title='Github' id='git' src={cursor} alt='github'></img></a></div>
+        <p className='tooltip'id='g'>Github</p>
+        <div className="cursor"><a href="https://www.youtube.com/channel/UCxuz0g5hfYVvs5w_euqgmYQ/featured"><img title='Youtube' id='youtube' src={cursor} alt='youtube'></img></a></div>
+        <p className='tooltip'id='y'>Youtube</p>
+        <div className="cursor"><a href = "mailto: songl652@newschool.edu"><img title='Mail' id='mail' src={cursor} alt='mail'></img></a></div>
+        <p className='tooltip'id='m'>Mail</p>
+        
+        
+        
+
     </div>
     );
 

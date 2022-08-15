@@ -1,0 +1,82 @@
+#menu{
+    width:50px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+  }
+#Content{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height:10%;
+    text-align:center;
+    padding:10;
+    border-style:solid
+}
+#ig{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:15%;
+    left:50%;
+  }
+#git{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:85%;
+  }
+#youtube{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:15%;
+  }
+#mail{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:85%;
+    left:50%;
+  }
+#i{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:15%;
+    left:50%;
+   
+}
+#g{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:85%;
+    
+}
+#y{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:15%;
+    
+}
+#m{
+    width:50px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:85%;
+    left:50%;
+}
+.tooltip{
+    visibility: hidden
+} 
+.cursor:hover + .tooltip{
+    visibility: visible;
+}

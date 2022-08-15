@@ -28,19 +28,19 @@ Content:{
 const Gallery = () => {
     return (
     <div>
-    <Link to="/Menu"><img style={style.Menu} src={cursor}></img></Link>  
+    <Link to="/Menu"><img style={style.Menu} src={cursor} alt='menu'></img></Link>  
     <div style={style.Content}> 
     <h1>Gallery</h1>
-    <div class='imgbox'>
-    <img class='gallery' src={i164}></img>
-    <img class='gallery' src={i155}></img>
-    <img class='gallery' src={i154}></img>
-    <img class='gallery' src={mk2}></img>
-    <img class='gallery' src={num1}></img>
-    <img class='gallery' src={num2}></img>
-    <img class='gallery' src={num3}></img>
-    <img class='gallery' src={S3}></img>
-    <img class='gallery' src={S4}></img>
+    <div className='imgbox'>
+    <img className='gallery' src={i164} alt='img'></img>
+    <img className='gallery' src={i155} alt='img'></img>
+    <img className='gallery' src={i154} alt='img'></img>
+    <img className='gallery' src={mk2} alt='img'></img>
+    <img className='gallery' src={num1} alt='img'></img>
+    <img className='gallery' src={num2} alt='img'></img>
+    <img className='gallery' src={num3} alt='img'></img>
+    <img className='gallery' src={S3} alt='img'></img>
+    <img className='gallery' src={S4} alt='img'></img>
     </div>
 
     </div>

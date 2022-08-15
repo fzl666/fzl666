@@ -1,12 +1,5 @@
-import { Outlet, Link } from "react-router-dom";
-const style= {
-div:{
-   position: 'fixed',
-   top: '50%',
-   left: '50%',
-   transform: 'translate(-50%, -50%)'
-      } 
-}
+import { Outlet } from "react-router-dom";
+
 const Layout = () => {
   return (
     <div>

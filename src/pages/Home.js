@@ -25,7 +25,7 @@ const Home = () => {
           <div>
            <p style={style.p}>Hello, I'm Luwenxi.</p>
            
-           <Link title='Menu' to="/Menu"><img style={style.cursor} src={cursor}></img></Link>            
+           <Link title='Menu' to="/Menu"><img style={style.cursor} src={cursor} alt='menu'></img></Link>            
           
           </div>
       )
