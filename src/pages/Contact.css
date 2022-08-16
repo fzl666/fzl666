@@ -9,67 +9,67 @@
     position: fixed;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
     line-height:10%;
     text-align:center;
     padding:10;
-    border-style:solid
+    border-style:solid;
+    transform: translate(-50%, -50%);
 }
 #ig{
     width:50px;
     position:absolute;
-    transform: translate(-50%, -50%);
     top:15%;
     left:50%;
+    transform: translate(-50%, -50%);
   }
 #git{
     width:50px;
     position:absolute;
-    transform: translate(-50%, -50%);
     top:50%;
     left:85%;
+    transform: translate(-50%, -50%);
   }
 #youtube{
     width:50px;
     position:absolute;
-    transform: translate(-50%, -50%);
     top:50%;
     left:15%;
+    transform: translate(-50%, -50%);
   }
 #mail{
     width:50px;
     position:absolute;
-    transform: translate(-50%, -50%);
     top:85%;
     left:50%;
+    transform: translate(-50%, -50%);
   }
 #i{
     position:absolute;
-    transform: translate(-50%, -50%);
     top:17%;
     left:50%;
     text-align: center;
+    transform: translate(-50%, -50%);
 }
 #g{
     position:absolute;
-    transform: translate(-50%, -50%);
     top:48%;
     left:78%;
     text-align: right;
+    transform: translate(-50%, -50%);
 }
 #y{
     position:absolute;
-    transform: translate(-50%, -50%);
     top:48%;
     left:22%;
     text-align: left;
+    transform: translate(-50%, -50%);
 }
 #m{
     position:absolute;
-    transform: translate(-50%, -50%);
     top:79%;
     left:50%;
     text-align: center;
+    transform: translate(-50%, -50%);
 }
 .tooltip{
     cursor: pointer;

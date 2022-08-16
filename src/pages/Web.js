@@ -1,35 +1,44 @@
 import { Link } from "react-router-dom"
 import cursor from "../assets/img/cursor.png"
 const style={
-Menu:{
-    width:50,
-    position:'absolute',
-    top:'85%',
-    left:'85%',
-    
-  },
 Content:{
     position:'absolute',
     width:'100%',
-    height:'100%',
-    zIndex:-1,
-    backgroundColor:'#d3d3d3'
+    height:'100%'
 },
+cursor:{
+    position: 'absolute',
+    width:50,
+    top:'15%',
+    left:'85%',
+    transform: 'translate(-50%, -50%)',
+    zIndex:1,
+},
+desktop:{  
+    position:'absolute',   
+    top:'15%',
+    left:'15%',
+    paddingTop:3,
+    marginRight:'15%',
+    border:'solid',
+    borderColor:'#d3d3d3',
+},
+
+
 Box:{
     float:'left',
     width: 'fit-content',
-    margin:5,
-    backgroundColor:'#d3d3d3',
-    padding:0,
 },
 a:{ 
     paddingBottom:3.5,
     width: 'fit-content',
     border:'outset',
+    backgroundColor:'#d3d3d3'
 },
 ac:{ 
     width: 'fit-content',
     border:'outset',
+    backgroundColor:'#d3d3d3'
 },
 Frame:{
     width:'100%',
@@ -38,14 +47,17 @@ Frame:{
     minWidth:300,
     minHeight:150,
     overflow: 'auto',
-    paddingBottom:10,
     resize: 'both',   
+    backgroundColor:'#d3d3d3',
+    paddingBottom:10,
+    marginBottom:0
 },
 }
 const Web = () => {
     return (
     <div style={style.Content}>
-    <Link to="/Menu"><img title='Menu'style={style.Menu} src={cursor} alt='Menu'></img></Link>  
+    <Link to="/Menu"><img style={style.cursor}title='Menu' src={cursor} alt='Menu'></img></Link>
+        <div style={style.desktop}>
 
         <div style={style.Box}>
         <div style={style.ac}><a href='"https://fzllab.com/finalhome/"'>天堂 Final Home</a></div>
@@ -66,7 +78,8 @@ const Web = () => {
         <div style={style.a}><a href="https://fzllab.com/">FZL Lab</a></div>
         <iframe style={style.Frame} src="https://fzllab.com/" title="FZL Lab"></iframe>
         </div>
-   
+
+    </div>
     </div>
     );
     

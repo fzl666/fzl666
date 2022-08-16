@@ -13,9 +13,9 @@ p:{
   position:'absolute',
   top:'40%',
   left:'50%',  
-  transform: 'translate(-50%, -50%)',
   padding:10,
-  borderStyle:'solid'
+  borderStyle:'solid',
+  transform: 'translate(-50%, -50%)'
 }
 }
 
