@@ -18,7 +18,6 @@ Menu:{
     left:'15%'
   },
 Content:{
-    position: 'fixed',
     width:'100%',
     height:'100%',
     backgroundColor:'blue',

@@ -44,37 +44,35 @@
     left:50%;
   }
 #i{
-    width:50px;
     position:absolute;
     transform: translate(-50%, -50%);
-    top:15%;
+    top:17%;
     left:50%;
-   
+    text-align: center;
 }
 #g{
-    width:50px;
     position:absolute;
     transform: translate(-50%, -50%);
-    top:50%;
-    left:85%;
-    
+    top:48%;
+    left:78%;
+    text-align: right;
 }
 #y{
-    width:50px;
     position:absolute;
     transform: translate(-50%, -50%);
-    top:50%;
-    left:15%;
-    
+    top:48%;
+    left:22%;
+    text-align: left;
 }
 #m{
-    width:50px;
     position:absolute;
     transform: translate(-50%, -50%);
-    top:85%;
+    top:79%;
     left:50%;
+    text-align: center;
 }
 .tooltip{
+    cursor: pointer;
     visibility: hidden
 } 
 .cursor:hover + .tooltip{
