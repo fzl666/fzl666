@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import cursor from "../assets/img/cursor.png"
+import Menu from "./Menu"
 const style = {
 cursor:{
   width:50,
@@ -20,13 +21,12 @@ p:{
 }
 
 const Home = () => {
-  return (
-    
-          <div>
+
+  return (        
+          <div id='box'>
            <p style={style.p}>Hello, I'm Luwenxi.</p>
-           
-           <Link title='Menu' to="/Menu"><img style={style.cursor} src={cursor} alt='menu'></img></Link>            
-          
+           <Link to='/Contact'><img style={style.cursor} src={cursor} alt='menu'></img></Link>          
+          <Menu></Menu>
           </div>
       )
   };

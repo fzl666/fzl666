@@ -14,7 +14,7 @@ import './Gallery.css'
 const Gallery = () => {
     return (
     <div id='content'>
-    <Link to="/Menu"><img id='Menu' src={cursor} alt='menu'></img></Link>    
+    <Link to="/"><img id='Menu' src={cursor} alt='menu'></img></Link>    
     <div id='imgbox'>
     <img className='gallery' src={i164} alt='img'></img>
     <img className='gallery' src={i155} alt='img'></img>
