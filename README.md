@@ -1,4 +1,5 @@
 # About me
+![alt text](./rmpreview.png)
 
 Portfolio built with ReactApp
 
