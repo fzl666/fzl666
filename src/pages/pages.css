@@ -53,7 +53,6 @@ transform: scale(2);
   left:15%;
   right:0;
   margin-right:15%;
-
 }
 .Box{
   float:left;
@@ -111,8 +110,29 @@ transform: scale(2);
   margin-right:15%;
 
 }
-/* Contacts */
+
+/* Bulletin */
 #menu4{
+  width:50px;
+  position:fixed;
+  top:85%;
+  left:85%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+#Bulletin{
+  position:absolute; 
+  width: fit-content;
+  bottom:15%;
+  right:15%;
+  margin-left:15%;
+  padding: 10px;
+  border: outset;
+  background-color: #caccc7;
+}
+
+/* Contacts */
+#menu0{
   width:50px;
   position:fixed;
   top:50%;
@@ -120,11 +140,11 @@ transform: scale(2);
   transform: translate(-50%, -50%);
   z-index:1;
 }
-#i{
+#g{
   top:15%;
   left:15%;
 }
-#g{
+#i{
   top:15%;
   left:85%;
 }
@@ -139,9 +159,8 @@ transform: scale(2);
 .contacts{
   position:absolute;
   margin:0;
-  color:black;
-  border: outset;
-  border-color: white;
+  color:#E82332;
+  padding:10px;
   transform: translate(-50%, -50%)     
 } 
 /* Moblie */

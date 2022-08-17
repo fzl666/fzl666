@@ -7,6 +7,7 @@ import Web from "./pages/Web";
 import Gallery from "./pages/Gallery";
 import Effects from "./pages/Effects";
 import NoPage from "./pages/NoPage";
+import Bulletin from "./pages/Bulletin.js";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home />} />
           <Route path="Contact" element={<Contact />} />
+          <Route path="Bulletin" element={<Bulletin/>} />
           <Route path="Web" element={<Web />} />
           <Route path="Gallery" element={<Gallery />} />
           <Route path="Effects" element={<Effects />} />
