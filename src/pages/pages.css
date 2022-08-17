@@ -1,0 +1,162 @@
+#intro{
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding: 30px;
+  margin:0;
+  color:black;
+  background-color: #caccc7;
+  border: outset;
+  border-color: white;
+  transform: translate(-50%, -50%) 
+}
+/* Gallery */
+#menu1{
+  position: absolute;
+  width:50px;  
+  top:15%;
+  left:15%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+#imgbox{   
+  position: absolute;
+  top:15%;
+  left:15%;
+  margin-right: 15%;
+  padding-right: 0;
+}
+.gallery{
+  transition: 'transform .2s';
+  border: outset;
+  max-height: 200px;
+  margin: 8px; 
+}
+.gallery:hover{
+transform: scale(2);
+border:outset;
+background-color:white;
+}
+
+/* Web */
+#menu2{
+  position: absolute;
+  width:50px;
+  top:15%;
+  left:85%;
+  transform: translate(-50%, -50%);
+  z-index:1
+}
+#desktop{  
+  position:absolute; 
+  top:15%;
+  left:15%;
+  right:0;
+  margin-right:15%;
+
+}
+.Box{
+  float:left;
+  width: fit-content;   
+  margin-right:8px;
+}
+.ac{ 
+  width: fit-content;
+  border:outset;
+  padding-left:2.3px;
+  padding-right:2.3px;
+  background-color:#caccc7
+}
+.a{ 
+  padding:2.3px;
+  width: fit-content;
+  border:outset;
+  background-color:#caccc7
+}
+.link{
+  text-decoration: none;
+  color:black
+}
+.frame{
+  width:100%;
+  max-width:900px;
+  max-height:900px;
+  min-width:300px;
+  min-height:150px;
+  overflow: auto;
+  resize: both;
+  border:outset;
+  background-color:#caccc7;
+  padding-bottom:10px;
+}
+@media all and (max-width:800px) 
+{
+  .Box
+    { 
+    float: right;
+    }
+  .frame
+    {
+      resize: vertical;
+    }
+}
+
+/* Effects */
+#menu3{
+  width:50px;
+  position:absolute;
+  top:85%;
+  left:15%;
+  transform: translate(-50%, -50%);
+  z-index:1
+  }
+#effects{
+  position:absolute; 
+  width: fit-content;
+  bottom:15%;
+  left:15%;
+  right:0;
+  padding: 10px;
+  border: outset;
+  background-color: #caccc7;
+  margin-right:15%;
+
+}
+/* contacts */
+#menu4{
+  width:50px;
+  position:fixed;
+  top:85%;
+  left:85%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+#m{
+  top:15%;
+  left:15%;
+  padding: 20px;
+}
+#g{
+  top:15%;
+  left:85%;
+  padding: 20px;
+}
+#y{  
+  top:85%;
+  left:15%;
+  padding: 20px;
+}
+#i{ 
+  top:50%;
+  left:50%;
+  padding: 30px;
+}
+.contacts{
+  position:absolute;
+  margin:0;
+  color:black;
+  background-color: #caccc7;
+  border: outset;
+  border-color: white;
+  transform: translate(-50%, -50%)     
+} 

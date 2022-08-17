@@ -9,22 +9,25 @@ import num2 from "../assets/img/num2.png"
 import num3 from "../assets/img/num3.png"
 import S4 from "../assets/img/S4.png"
 import S3 from "../assets/img/S3.png"
-import './Gallery.css'
+import i147 from "../assets/img/i147.jpg"
+import './pages.css'
 
 const Gallery = () => {
     return (
-    <div id='content'>
-    <Link to="/"><img id='Menu' src={cursor} alt='menu'></img></Link>    
+    <div className='content'>
+    <Link to="/"><img id='menu1' src={cursor} alt='menu' title="Home"></img></Link>    
     <div id='imgbox'>
     <img className='gallery' src={i164} alt='img'></img>
     <img className='gallery' src={i155} alt='img'></img>
     <img className='gallery' src={i154} alt='img'></img>
+    <img className='gallery' src={i147} alt='img'></img>
     <img className='gallery' src={mk2} alt='img'></img>
     <img className='gallery' src={num1} alt='img'></img>
     <img className='gallery' src={num2} alt='img'></img>
     <img className='gallery' src={num3} alt='img'></img>
     <img className='gallery' src={S3} alt='img'></img>
     <img className='gallery' src={S4} alt='img'></img>
+    
     </div>
     </div>
     );
