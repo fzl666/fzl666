@@ -166,7 +166,7 @@ transform: scale(2);
 /* Moblie */
 @media all and (max-width:800px) 
 { body{
-  overflow-x: hidden
+  overflow-x: hidden;
 }
   .Box
     { 
