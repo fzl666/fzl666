@@ -16,8 +16,8 @@ Content:{
   right:0,
   textAlign:'right',
   marginRight:'15%',
-  border:'solid',
-  borderColor:'#d3d3d3'
+  border:'outset',
+  backgroundColor:'#caccc7'
   },  
 }
 const Newsletter = () => {
@@ -25,7 +25,7 @@ const Newsletter = () => {
     <div>
     <Link to="/"><img style={style.Menu} src={cursor} alt='menu'></img></Link>  
     <div style={style.Content}> 
-     <h1>Under construction</h1>
+     <h1>Coming Soon</h1>
     </div>
     </div>
     );

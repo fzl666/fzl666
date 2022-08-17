@@ -17,18 +17,19 @@
     left:15%;
     margin-right: 15%;
     padding-right: 0;
-    border:solid;
-    border-color:#d3d3d3;
+    border:outset;
+    border-width:2px;
+    background-color: #caccc7;
+    border-color:#caccc7;
     
 }
 .gallery{
     transition: 'transform .2s';
-    max-width: 250px;
-    max-height: 250px;
+    max-height: 200px;
     margin: 8px; 
 }
 .gallery:hover{
   transform: scale(2);
   border:outset;
-  background-color:#d3d3d3;
+  background-color:#caccc7;
 }

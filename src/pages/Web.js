@@ -20,19 +20,20 @@ desktop:{
     left:'15%',
     right:'0',
     marginRight:'15%',
-    border:'solid',
-    borderColor:'#d3d3d3',
+    border:'outset',
+    backgroundColor:'#caccc7',
+    overflow:'auto'
+
 },
 Box:{
     float:'left',
-    width: 'fit-content',
-    
+    width: 'fit-content',   
 },
 a:{ 
     paddingBottom:3.5,
     width: 'fit-content',
     border:'outset',
-    backgroundColor:'#d3d3d3',
+    backgroundColor:'#caccc7',
 },
 link:{
     textDecoration: 'none',
@@ -40,18 +41,19 @@ link:{
 ac:{ 
     width: 'fit-content',
     border:'outset',
-    backgroundColor:'#d3d3d3'
+    backgroundColor:'#caccc7'
 },
 Frame:{
-    
+
     width:'100%',
     maxWidth:900,
     maxHeight:900,
     minWidth:300,
     minHeight:150,
     overflow: 'auto',
-    resize: 'both',   
-    backgroundColor:'#d3d3d3',
+    resize: 'both',
+    border:"outset",  
+    backgroundColor:'#caccc7',
     paddingBottom:10,
 },
 }

@@ -15,8 +15,9 @@ Content:{
   bottom:"15%",
   left:'15%',
   marginRight:'15%',
-  border:'solid',
-  borderColor:'#d3d3d3'
+  border:'outset',
+  borderColor:'#caccc7',
+  backgroundColor:'#caccc7'
 },
 
 

@@ -35,7 +35,7 @@ const Menu = () => {
           <div>         
            <Link to="/Gallery"><img title='Gallery'style={style.gallery} src={cursor} alt='gallery'></img></Link>
            <Link to="/Web"><img title='Web'style={style.web} src={cursor} alt='web'></img></Link> 
-           <Link to="/Newsletter"><img title='Newsletter'style={style.contact} src={cursor} alt='contact'></img></Link>  
+           <Link to="/Contact"><img title='Contact'style={style.contact} src={cursor} alt='contact'></img></Link>  
            <Link to="/Effects"><img title= 'AR Effects'style={style.effect} src={cursor} alt='effects'></img></Link> 
           </div>
       )
