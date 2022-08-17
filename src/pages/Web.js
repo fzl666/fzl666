@@ -8,7 +8,7 @@ const Web = () => {
         <div id='desktop'>
 
         <div className="Box">
-        <div className="ac"><a className='link' href='"https://fzllab.com/finalhome/"'>天堂 Final Home</a></div>
+        <div className="ac"><a className='link' href="https://fzllab.com/finalhome/">天堂 Final Home</a></div>
         <iframe className="frame" src="https://fzllab.com/finalhome/" title="Finalhome" allowFullScreen></iframe>
         </div>
 
