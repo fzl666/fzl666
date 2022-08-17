@@ -165,7 +165,9 @@ transform: scale(2);
 } 
 /* Moblie */
 @media all and (max-width:800px) 
-{
+{ body{
+  overflow-x: hidden
+}
   .Box
     { 
     float: right;
@@ -174,6 +176,9 @@ transform: scale(2);
     {
       resize: vertical;
     }
+  .gallery{
+    max-width: 309px;
+  }
   .gallery:hover{
     transform: none;
   }
