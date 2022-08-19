@@ -119,15 +119,26 @@ z-index: 1;
   }
 #effects{
   position:absolute; 
-  width: fit-content;
-  bottom:15%;
-  left:15%;
-  right:0;
+  bottom: 14.98%;
+  left:14.98%;
+  top:15%;
+  right:15%;
   padding: 10px;
-  border: outset;
-  background-color: #caccc7;
-  margin-right:15%;
-
+  border: solid;
+  border-width: 1px;
+  border-color: #E82332;
+  overflow: auto;
+}
+.ar{
+  height: 300px;;
+}
+.ardiv{
+  float: left;
+  margin: 10px;
+}
+.arcap{
+  color: #E82332;
+  margin: 0;
 }
 
 /* Bulletin */
