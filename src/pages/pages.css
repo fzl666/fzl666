@@ -31,8 +31,9 @@
   border: solid;
   border-width: 1px;
   border-color: #E82332;
-  margin-right: 15%;
-  padding-right: 0;
+  right: 15%;
+  bottom: 15%;
+  overflow:auto
 }
 .gallery{
   transition: 'transform .2s';
@@ -65,7 +66,9 @@ z-index: 1;
   border-color: #E82332;
   left:15%;
   top:14.98%;
-  margin-right:14.98%;
+  right:14.98%;
+  bottom: 15%;
+  overflow:auto
 }
 .Box{
   float:left;
@@ -73,20 +76,12 @@ z-index: 1;
   margin:8px;
 }
 .ac{ 
-  width: fit-content;
-  /* border:solid;
-  border-color: black;
-  border-width:1px; */
   padding-left:2.3px;
   padding-right:2.3px;
   border-bottom: none;
 }
 .a{ 
   padding:2.3px;
-  width: fit-content;
-  /* border:solid;
-  border-color: black;
-  border-bottom: none; */
   border-width:1px;
 }
 .link{
@@ -94,12 +89,11 @@ z-index: 1;
   color:black
 }
 .frame{
-  width:100%;
+  width:90%;
   max-width:900px;
   max-height:900px;
   min-width:300px;
   min-height:150px;
-  overflow: auto;
   resize: both;
   border:solid;
   border-color: black;
@@ -131,6 +125,7 @@ z-index: 1;
 }
 .ar{
   height: 300px;;
+  border:solid;
 }
 .ardiv{
   float: left;
@@ -152,13 +147,14 @@ z-index: 1;
 }
 #Bulletin{
   position:absolute; 
-  width: fit-content;
-  bottom:15%;
-  right:15%;
-  margin-left:15%;
+  top:15%;
+  left:15%;
+  bottom:14.98%;
+  right:14.98%;
   padding: 10px;
-  border: outset;
-  background-color: #caccc7;
+  border: solid;
+  border-width: 1px;
+  border-color: #E82332;
 }
 
 /* Contacts */
@@ -197,19 +193,31 @@ z-index: 1;
 @media all and (max-width:800px) 
 { body{
   overflow-x: hidden;
-}
-  .Box
+}  
+  #desktop{
+    left:10%
+  } 
+ .frame
     { 
-    float: right;
+     min-width:0;
+     min-height: 0;
+     width:100%;
+     resize: none;
     }
-  .frame
-    {
-      resize: vertical;
-    }
+
+  #imgbox{
+    right:10%
+  }
+  #Bulletin{
+    left:10%
+  }
   .gallery{
-    max-width: 309px;
+    max-width: 90%;
   }
   .gallery:hover{
     transform: none;
+  }
+  #effects{
+    right:10%
   }
 }
